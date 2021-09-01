@@ -11,8 +11,10 @@ public class WeatherController {
 
     @PostMapping
     public Weather createWeather (@RequestBody WeatherDto weatherDto){
+        System.out.println(weatherDto + " Este es el weatherDTO");
         return new Weather (weatherDto);
     }
+
     @GetMapping("/{id}")
     public Weather findWeatherById (@PathVariable String id){
         return null;

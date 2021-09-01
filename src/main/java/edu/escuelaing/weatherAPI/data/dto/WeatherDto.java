@@ -1,6 +1,6 @@
 package edu.escuelaing.weatherAPI.data.dto;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.UUID;
 
 public class WeatherDto {
