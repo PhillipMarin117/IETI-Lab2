@@ -21,12 +21,14 @@ import java.util.List;
 public class UserController
 {
 
-    private final UserService userService;
+    //private final UserService userService;
 
-    public UserController( @Autowired UserService userService )
+    /*public UserController( @Autowired UserService userService )
     {
         this.userService = userService;
-    }
+    }*/
+    @Autowired
+    private UserService userService;
 
 
     @GetMapping

@@ -2,8 +2,10 @@ package edu.escuelaing.UserAPI.service;
 
 import edu.escuelaing.UserAPI.dto.UserDto;
 import edu.escuelaing.UserAPI.model.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 
 public interface UserService
 {
